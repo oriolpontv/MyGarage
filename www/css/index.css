@@ -1,0 +1,45 @@
+@font-face {
+    font-family: regular;
+    src: url(/fonts/MavenPro-Regular.ttf)
+}
+@font-face {
+    font-family: medium;
+    src: url(/fonts/MavenPro-Medium.ttf)
+}
+@font-face {
+    font-family: bold;
+    src: url(/fonts/MavenPro-Bold.ttf)
+}
+body {
+    padding: 5%;
+    box-sizing: border-box;
+}
+.logo {
+    padding-bottom: 60px;
+    padding-top: 15%;
+}
+    .logo img {
+        width: 100%;
+    }
+.login {
+    width: 100%;
+    text-align: center;
+}
+    .login label {
+        font-family: bold;
+        font-size: 21px;
+    }
+    .login input {
+        width: 60%;
+        border-radius: 20px;
+        border: 1px solid #979797;
+        padding: 12px;
+    }
+        .login input[type="submit"]{
+            border-radius: 20px;
+            font-family: bold;
+            background-color: #CD9933;
+            border: none;
+            font-size: 18px;
+            padding: 13px 30px;
+        }
