@@ -13,6 +13,12 @@
 body {
     padding: 5%;
     box-sizing: border-box;
+    background-color: #fff;
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: inherit;
+    background-attachment: fixed;
 }
 .logo {
     text-align: center;
@@ -66,6 +72,9 @@ body {
         padding: 20px;
         font-size: 20px;
         font-family: 'bold';
+    }
+    #factures .factura span {
+        color: #000;
     }
         #factures .factura .pdf-factura:hover {
             background-color: #000;

@@ -30,6 +30,12 @@
         <script src="js/index.js"></script>
         <script type="text/javascript">
 
+            $(document).ready(function() {
+                if (localStorage.getItem("dni") !== null) {
+                    location.replace("vehicles.html");
+                }
+            })
+
             $("#b1").click(function(){
                 
                 var dni_login = $("#dni").val();
